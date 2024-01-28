@@ -1,0 +1,76 @@
+@media(max-width: 1024px) {
+    .cabecalho {
+        height: 100px;
+        justify-content: center;
+        flex-direction: column;
+        padding: 59px 0;
+        gap: 15px;
+    }
+
+    .cabecalho .logo .nintendo-logo {
+        width: 100px;
+        height: 25px;
+    }
+
+    .cabecalho .logo hr {
+        height: 30px;
+    }
+
+    .cabecalho .menu li a {
+        padding: 15px;
+    }
+
+    .home {
+        min-height: calc(100vh - 100px);
+    }
+
+    .home .info {
+        padding: 30px;
+    }
+
+    .home .info img {
+        max-width: 100px;
+    }
+
+    .home .info .titulo {
+        font-size: 40px;
+    }
+
+    .compre-ja .cartao {
+        width: 70%;
+    }
+}
+
+@media(max-width: 768px) {
+    .compre-ja {
+        padding: 30px;
+    }
+
+    .compre-ja .cartao {
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 35px;
+    }
+
+    .btn-plataforma {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .btn-comprar {
+        width: 100%;
+    }
+}
+
+@media(max-width: 425px){
+    main::after {
+        background: linear-gradient(90deg, rgba(0,0,0,0.85), rgba(0,0,0,0.4) 100%, transparent 65%);
+    }
+
+    .compre-ja .cartao .capa-do-jogo {
+        max-width: 80%;
+    }
+}
